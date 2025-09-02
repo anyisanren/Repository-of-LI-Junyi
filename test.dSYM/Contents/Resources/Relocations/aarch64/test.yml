@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/lijunyi/Documents/Repository-of-LI-Junyi/test'
+relocations:     []
+...
