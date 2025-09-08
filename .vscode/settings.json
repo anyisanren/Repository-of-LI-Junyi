@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "test.C": "cpp"
+        "test.C": "cpp",
+        "backback problem.C": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

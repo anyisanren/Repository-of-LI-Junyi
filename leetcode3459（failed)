@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main()
+{
+    int m = gridSize, n = gridColSize[0];
+    int max_len == 0;
+    int tmp = 0;
+    const int direction[4][2] = {{1,1},{1,-1},{-1,-1},{-1,1}};
+    int mem[n][m][4][2];
+    memset
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (grid[i][j] == 1)
+            {
+                for (int d = 0; i < 4; d++)
+                {
+                    dfs(i,j,d,1,m,n);
+                max_len = max_len > tmp ? max_len : tmp;
+                }
+                
+                
+            }
+            
+        }
+        
+    }
+    
+}
+void dfs(int x,int y,int dir,int turn,int m,int n)
+{
+    int nx = x + direction[dir][0];
+    int ny = y + direction[dir][1];
+    if (nx < 0 || ny < 0 || nx >= n || ny >= m || grid[nx][ny] != 2 - grid[x][y])
+    {
+        return 0;
+    }
+    
+    if (mem[nx][ny][dir][turn] != -1)
+    {
+        
+    }
+    
+}
